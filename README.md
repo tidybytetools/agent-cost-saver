@@ -12,6 +12,23 @@ Also on Gumroad (same free pack): https://tidybyte.gumroad.com/l/agent-cost-save
 
 You need Python 3.8 or newer. Nothing else to install.
 
+**As an agent skill** (asks your agent to run the audit for you):
+
+```bash
+npx skills add tidybytetools/agent-cost-saver
+```
+
+Or, in Claude Code:
+
+```text
+/plugin marketplace add tidybytetools/agent-cost-saver
+/plugin install agent-cost-saver@tidybytetools-agent-cost-saver
+```
+
+Then ask: "Audit this project for token cost."
+
+**As plain scripts and guides:**
+
 ```bash
 git clone https://github.com/tidybytetools/agent-cost-saver.git
 cd agent-cost-saver

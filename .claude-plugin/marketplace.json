@@ -1,0 +1,13 @@
+{
+  "name": "tidybytetools-agent-cost-saver",
+  "description": "Free token-cost audit skill from Tidy Byte Tools",
+  "owner": { "name": "Tidy Byte Tools" },
+  "plugins": [
+    {
+      "name": "agent-cost-saver",
+      "source": "./",
+      "description": "Audit what Claude Code, Cursor and Codex load on every request and get a ranked fix list. Read-only.",
+      "version": "1.1.0"
+    }
+  ]
+}
