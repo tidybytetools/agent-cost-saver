@@ -1,0 +1,36 @@
+Agent Cost Saver - audit of demo-project
+
+Sent with every request if your tools read all of these (rough guess): up to about 9,186 tokens
+  AGENTS.md: 78 lines, about 932 tokens
+  CLAUDE.md: 225 lines, about 4,444 tokens
+  Cursor always-apply rules: about 3,810 tokens
+
+[HIGH] CLAUDE.md and AGENTS.md repeat the same text
+   Why: 66 of 67 lines match. A tool that reads both pays for the text twice.
+   Fix: Keep the rules in AGENTS.md and make CLAUDE.md one line: @AGENTS.md
+
+[MED] CLAUDE.md is 225 lines (about 4,444 tokens)
+   Why: Claude Code loads it at the start of every session. Its docs suggest keeping CLAUDE.md under 200 lines.
+   Fix: Keep commands and hard rules. Move workflow steps into skills or sub-folder files. See guide/05.
+
+[MED] .claudeignore does nothing in Claude Code
+   Why: Claude Code's docs say a .claudeignore file has no effect.
+   Fix: Move its lines into permissions.deny as Read(...) rules. Run scripts/make_ignore.py to get the snippet.
+
+[MED] Cursor rules that always apply: about 3,810 tokens
+   Why: Rules with alwaysApply: true go into every chat. .cursor/rules/everything.mdc (~3,810)
+   Fix: Give each rule globs (apply to matching files) or a description (Agent decides), and keep only a few lines always on.
+
+[MED] 7 MCP servers are switched on in this project
+   Why: github, slack, postgres, puppeteer, notion, linear, sentry
+   Fix: Every server adds tool names to context. Turn off the ones you are not using right now (/mcp in Claude Code, enabled = false in Codex).
+
+[INFO] .cursor/rules/notes.md is ignored by Cursor
+   Why: Project rules must end in .mdc. A plain .md file in .cursor/rules is ignored.
+   Fix: Rename it to .mdc, or move the text into AGENTS.md.
+
+[INFO] No test-output filter hook found for Claude Code
+   Why: Without one, a failing test run can dump thousands of lines into context.
+   Fix: Optional: copy scripts/filter_test_output.py and templates/claude-settings.cost.example.json.
+
+1 high, 4 medium, 2 info. Token numbers are rough (characters / 4).

@@ -1,0 +1,17 @@
+# Example Codex settings that lower cost. Copy the lines you want into ~/.codex/config.toml
+# (or into .codex/config.toml inside one project).
+# Names and allowed values can change between Codex versions. Check `codex --help`
+# and the official docs (developers.openai.com/codex) before you rely on a line.
+
+# A lower thinking level for everyday work. Raise it with /model for hard problems.
+model_reasoning_effort = "medium"
+
+# Optional: let Codex compact earlier. The number is a token limit. Pick your own.
+# model_auto_compact_token_limit = 120000
+
+# Optional: cap how much of each tool's output is kept. The number is a token limit. Pick your own.
+# tool_output_token_limit = 8000
+
+# Turn off a tool server you are not using right now:
+# [mcp_servers.some-server]
+# enabled = false

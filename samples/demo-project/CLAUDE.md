@@ -1,0 +1,225 @@
+# Demo project instructions
+
+DEMO FILE: deliberately too long, so the audit has something to flag.
+
+## Code style
+- Use TypeScript strict mode in every package. (code style rule 1)
+- Name React components in PascalCase. (code style rule 2)
+- Name hooks with a use prefix. (code style rule 3)
+- Keep components under 200 lines. (code style rule 4)
+- Use named exports, not default exports. (code style rule 5)
+- Put tests next to the file they test. (code style rule 6)
+- Use Vitest for unit tests. (code style rule 7)
+- Use Playwright for browser tests. (code style rule 8)
+- Never commit .env files. (code style rule 9)
+- Run the linter before you say a task is done. (code style rule 1)
+- Run the type checker before you say a task is done. (code style rule 2)
+- Use pnpm, not npm or yarn. (code style rule 3)
+- Use date-fns for dates. Do not add moment. (code style rule 4)
+
+## Testing
+- Use TypeScript strict mode in every package. (testing rule 5)
+- Name React components in PascalCase. (testing rule 6)
+- Name hooks with a use prefix. (testing rule 7)
+- Keep components under 200 lines. (testing rule 8)
+- Use named exports, not default exports. (testing rule 9)
+- Put tests next to the file they test. (testing rule 1)
+- Use Vitest for unit tests. (testing rule 2)
+- Use Playwright for browser tests. (testing rule 3)
+- Never commit .env files. (testing rule 4)
+- Run the linter before you say a task is done. (testing rule 5)
+- Run the type checker before you say a task is done. (testing rule 6)
+- Use pnpm, not npm or yarn. (testing rule 7)
+- Use date-fns for dates. Do not add moment. (testing rule 8)
+
+## Git
+- Use TypeScript strict mode in every package. (git rule 9)
+- Name React components in PascalCase. (git rule 1)
+- Name hooks with a use prefix. (git rule 2)
+- Keep components under 200 lines. (git rule 3)
+- Use named exports, not default exports. (git rule 4)
+- Put tests next to the file they test. (git rule 5)
+- Use Vitest for unit tests. (git rule 6)
+- Use Playwright for browser tests. (git rule 7)
+- Never commit .env files. (git rule 8)
+- Run the linter before you say a task is done. (git rule 9)
+- Run the type checker before you say a task is done. (git rule 1)
+- Use pnpm, not npm or yarn. (git rule 2)
+- Use date-fns for dates. Do not add moment. (git rule 3)
+
+## Frontend
+- Use TypeScript strict mode in every package. (frontend rule 4)
+- Name React components in PascalCase. (frontend rule 5)
+- Name hooks with a use prefix. (frontend rule 6)
+- Keep components under 200 lines. (frontend rule 7)
+- Use named exports, not default exports. (frontend rule 8)
+- Put tests next to the file they test. (frontend rule 9)
+- Use Vitest for unit tests. (frontend rule 1)
+- Use Playwright for browser tests. (frontend rule 2)
+- Never commit .env files. (frontend rule 3)
+- Run the linter before you say a task is done. (frontend rule 4)
+- Run the type checker before you say a task is done. (frontend rule 5)
+- Use pnpm, not npm or yarn. (frontend rule 6)
+- Use date-fns for dates. Do not add moment. (frontend rule 7)
+
+## Backend
+- Use TypeScript strict mode in every package. (backend rule 8)
+- Name React components in PascalCase. (backend rule 9)
+- Name hooks with a use prefix. (backend rule 1)
+- Keep components under 200 lines. (backend rule 2)
+- Use named exports, not default exports. (backend rule 3)
+- Put tests next to the file they test. (backend rule 4)
+- Use Vitest for unit tests. (backend rule 5)
+- Use Playwright for browser tests. (backend rule 6)
+- Never commit .env files. (backend rule 7)
+- Run the linter before you say a task is done. (backend rule 8)
+- Run the type checker before you say a task is done. (backend rule 9)
+- Use pnpm, not npm or yarn. (backend rule 1)
+- Use date-fns for dates. Do not add moment. (backend rule 2)
+
+## Security
+- Use TypeScript strict mode in every package. (security rule 3)
+- Name React components in PascalCase. (security rule 4)
+- Name hooks with a use prefix. (security rule 5)
+- Keep components under 200 lines. (security rule 6)
+- Use named exports, not default exports. (security rule 7)
+- Put tests next to the file they test. (security rule 8)
+- Use Vitest for unit tests. (security rule 9)
+- Use Playwright for browser tests. (security rule 1)
+- Never commit .env files. (security rule 2)
+- Run the linter before you say a task is done. (security rule 3)
+- Run the type checker before you say a task is done. (security rule 4)
+- Use pnpm, not npm or yarn. (security rule 5)
+- Use date-fns for dates. Do not add moment. (security rule 6)
+
+## Docs
+- Use TypeScript strict mode in every package. (docs rule 7)
+- Name React components in PascalCase. (docs rule 8)
+- Name hooks with a use prefix. (docs rule 9)
+- Keep components under 200 lines. (docs rule 1)
+- Use named exports, not default exports. (docs rule 2)
+- Put tests next to the file they test. (docs rule 3)
+- Use Vitest for unit tests. (docs rule 4)
+- Use Playwright for browser tests. (docs rule 5)
+- Never commit .env files. (docs rule 6)
+- Run the linter before you say a task is done. (docs rule 7)
+- Run the type checker before you say a task is done. (docs rule 8)
+- Use pnpm, not npm or yarn. (docs rule 9)
+- Use date-fns for dates. Do not add moment. (docs rule 1)
+
+## Deploy
+- Use TypeScript strict mode in every package. (deploy rule 2)
+- Name React components in PascalCase. (deploy rule 3)
+- Name hooks with a use prefix. (deploy rule 4)
+- Keep components under 200 lines. (deploy rule 5)
+- Use named exports, not default exports. (deploy rule 6)
+- Put tests next to the file they test. (deploy rule 7)
+- Use Vitest for unit tests. (deploy rule 8)
+- Use Playwright for browser tests. (deploy rule 9)
+- Never commit .env files. (deploy rule 1)
+- Run the linter before you say a task is done. (deploy rule 2)
+- Run the type checker before you say a task is done. (deploy rule 3)
+- Use pnpm, not npm or yarn. (deploy rule 4)
+- Use date-fns for dates. Do not add moment. (deploy rule 5)
+
+## Old notes pasted from the wiki
+- 2026-02-02: Meeting note 1: we talked about the name react components in pascalcase again and agreed to revisit it.
+- 2026-03-03: Meeting note 2: we talked about the name hooks with a use prefix again and agreed to revisit it.
+- 2026-04-04: Meeting note 3: we talked about the keep components under 200 lines again and agreed to revisit it.
+- 2026-05-05: Meeting note 4: we talked about the use named exports, not default exports again and agreed to revisit it.
+- 2026-06-06: Meeting note 5: we talked about the put tests next to the file they test again and agreed to revisit it.
+- 2026-07-07: Meeting note 6: we talked about the use vitest for unit tests again and agreed to revisit it.
+- 2026-08-08: Meeting note 7: we talked about the use playwright for browser tests again and agreed to revisit it.
+- 2026-09-09: Meeting note 8: we talked about the never commit .env files again and agreed to revisit it.
+- 2026-10-10: Meeting note 9: we talked about the run the linter before you say a task is done again and agreed to revisit it.
+- 2026-11-11: Meeting note 10: we talked about the run the type checker before you say a task is done again and agreed to revisit it.
+- 2026-12-12: Meeting note 11: we talked about the use pnpm, not npm or yarn again and agreed to revisit it.
+- 2026-01-13: Meeting note 12: we talked about the use date-fns for dates. do not add moment again and agreed to revisit it.
+- 2026-02-14: Meeting note 13: we talked about the write commit messages in the imperative mood again and agreed to revisit it.
+- 2026-03-15: Meeting note 14: we talked about the keep commit titles under 72 characters again and agreed to revisit it.
+- 2026-04-16: Meeting note 15: we talked about the do not use any. use unknown and narrow it again and agreed to revisit it.
+- 2026-05-17: Meeting note 16: we talked about the return early instead of nesting if blocks again and agreed to revisit it.
+- 2026-06-18: Meeting note 17: we talked about the prefer const over let again and agreed to revisit it.
+- 2026-07-19: Meeting note 18: we talked about the handle every promise. no floating promises again and agreed to revisit it.
+- 2026-08-20: Meeting note 19: we talked about the log with the shared logger, not console.log again and agreed to revisit it.
+- 2026-09-21: Meeting note 20: we talked about the use zod to validate data at the edge of the app again and agreed to revisit it.
+- 2026-10-22: Meeting note 21: we talked about the do not catch errors and ignore them again and agreed to revisit it.
+- 2026-11-23: Meeting note 22: we talked about the add a test for every bug you fix again and agreed to revisit it.
+- 2026-12-24: Meeting note 23: we talked about the keep functions under 40 lines again and agreed to revisit it.
+- 2026-01-25: Meeting note 24: we talked about the use css modules for styles again and agreed to revisit it.
+- 2026-02-26: Meeting note 25: we talked about the use the design tokens in src/tokens.ts again and agreed to revisit it.
+- 2026-03-27: Meeting note 26: we talked about the do not use inline styles again and agreed to revisit it.
+- 2026-04-01: Meeting note 27: we talked about the use semantic html again and agreed to revisit it.
+- 2026-05-02: Meeting note 28: we talked about the every image needs alt text again and agreed to revisit it.
+- 2026-06-03: Meeting note 29: we talked about the every button needs a type again and agreed to revisit it.
+- 2026-07-04: Meeting note 30: we talked about the use typescript strict mode in every package again and agreed to revisit it.
+- 2026-08-05: Meeting note 31: we talked about the name react components in pascalcase again and agreed to revisit it.
+- 2026-09-06: Meeting note 32: we talked about the name hooks with a use prefix again and agreed to revisit it.
+- 2026-10-07: Meeting note 33: we talked about the keep components under 200 lines again and agreed to revisit it.
+- 2026-11-08: Meeting note 34: we talked about the use named exports, not default exports again and agreed to revisit it.
+- 2026-12-09: Meeting note 35: we talked about the put tests next to the file they test again and agreed to revisit it.
+- 2026-01-10: Meeting note 36: we talked about the use vitest for unit tests again and agreed to revisit it.
+- 2026-02-11: Meeting note 37: we talked about the use playwright for browser tests again and agreed to revisit it.
+- 2026-03-12: Meeting note 38: we talked about the never commit .env files again and agreed to revisit it.
+- 2026-04-13: Meeting note 39: we talked about the run the linter before you say a task is done again and agreed to revisit it.
+- 2026-05-14: Meeting note 40: we talked about the run the type checker before you say a task is done again and agreed to revisit it.
+- 2026-06-15: Meeting note 41: we talked about the use pnpm, not npm or yarn again and agreed to revisit it.
+- 2026-07-16: Meeting note 42: we talked about the use date-fns for dates. do not add moment again and agreed to revisit it.
+- 2026-08-17: Meeting note 43: we talked about the write commit messages in the imperative mood again and agreed to revisit it.
+- 2026-09-18: Meeting note 44: we talked about the keep commit titles under 72 characters again and agreed to revisit it.
+- 2026-10-19: Meeting note 45: we talked about the do not use any. use unknown and narrow it again and agreed to revisit it.
+- 2026-11-20: Meeting note 46: we talked about the return early instead of nesting if blocks again and agreed to revisit it.
+- 2026-12-21: Meeting note 47: we talked about the prefer const over let again and agreed to revisit it.
+- 2026-01-22: Meeting note 48: we talked about the handle every promise. no floating promises again and agreed to revisit it.
+- 2026-02-23: Meeting note 49: we talked about the log with the shared logger, not console.log again and agreed to revisit it.
+- 2026-03-24: Meeting note 50: we talked about the use zod to validate data at the edge of the app again and agreed to revisit it.
+- 2026-04-25: Meeting note 51: we talked about the do not catch errors and ignore them again and agreed to revisit it.
+- 2026-05-26: Meeting note 52: we talked about the add a test for every bug you fix again and agreed to revisit it.
+- 2026-06-27: Meeting note 53: we talked about the keep functions under 40 lines again and agreed to revisit it.
+- 2026-07-01: Meeting note 54: we talked about the use css modules for styles again and agreed to revisit it.
+- 2026-08-02: Meeting note 55: we talked about the use the design tokens in src/tokens.ts again and agreed to revisit it.
+- 2026-09-03: Meeting note 56: we talked about the do not use inline styles again and agreed to revisit it.
+- 2026-10-04: Meeting note 57: we talked about the use semantic html again and agreed to revisit it.
+- 2026-11-05: Meeting note 58: we talked about the every image needs alt text again and agreed to revisit it.
+- 2026-12-06: Meeting note 59: we talked about the every button needs a type again and agreed to revisit it.
+- 2026-01-07: Meeting note 60: we talked about the use typescript strict mode in every package again and agreed to revisit it.
+- 2026-02-08: Meeting note 61: we talked about the name react components in pascalcase again and agreed to revisit it.
+- 2026-03-09: Meeting note 62: we talked about the name hooks with a use prefix again and agreed to revisit it.
+- 2026-04-10: Meeting note 63: we talked about the keep components under 200 lines again and agreed to revisit it.
+- 2026-05-11: Meeting note 64: we talked about the use named exports, not default exports again and agreed to revisit it.
+- 2026-06-12: Meeting note 65: we talked about the put tests next to the file they test again and agreed to revisit it.
+- 2026-07-13: Meeting note 66: we talked about the use vitest for unit tests again and agreed to revisit it.
+- 2026-08-14: Meeting note 67: we talked about the use playwright for browser tests again and agreed to revisit it.
+- 2026-09-15: Meeting note 68: we talked about the never commit .env files again and agreed to revisit it.
+- 2026-10-16: Meeting note 69: we talked about the run the linter before you say a task is done again and agreed to revisit it.
+- 2026-11-17: Meeting note 70: we talked about the run the type checker before you say a task is done again and agreed to revisit it.
+- 2026-12-18: Meeting note 71: we talked about the use pnpm, not npm or yarn again and agreed to revisit it.
+- 2026-01-19: Meeting note 72: we talked about the use date-fns for dates. do not add moment again and agreed to revisit it.
+- 2026-02-20: Meeting note 73: we talked about the write commit messages in the imperative mood again and agreed to revisit it.
+- 2026-03-21: Meeting note 74: we talked about the keep commit titles under 72 characters again and agreed to revisit it.
+- 2026-04-22: Meeting note 75: we talked about the do not use any. use unknown and narrow it again and agreed to revisit it.
+- 2026-05-23: Meeting note 76: we talked about the return early instead of nesting if blocks again and agreed to revisit it.
+- 2026-06-24: Meeting note 77: we talked about the prefer const over let again and agreed to revisit it.
+- 2026-07-25: Meeting note 78: we talked about the handle every promise. no floating promises again and agreed to revisit it.
+- 2026-08-26: Meeting note 79: we talked about the log with the shared logger, not console.log again and agreed to revisit it.
+- 2026-09-27: Meeting note 80: we talked about the use zod to validate data at the edge of the app again and agreed to revisit it.
+- 2026-10-01: Meeting note 81: we talked about the do not catch errors and ignore them again and agreed to revisit it.
+- 2026-11-02: Meeting note 82: we talked about the add a test for every bug you fix again and agreed to revisit it.
+- 2026-12-03: Meeting note 83: we talked about the keep functions under 40 lines again and agreed to revisit it.
+- 2026-01-04: Meeting note 84: we talked about the use css modules for styles again and agreed to revisit it.
+- 2026-02-05: Meeting note 85: we talked about the use the design tokens in src/tokens.ts again and agreed to revisit it.
+- 2026-03-06: Meeting note 86: we talked about the do not use inline styles again and agreed to revisit it.
+- 2026-04-07: Meeting note 87: we talked about the use semantic html again and agreed to revisit it.
+- 2026-05-08: Meeting note 88: we talked about the every image needs alt text again and agreed to revisit it.
+- 2026-06-09: Meeting note 89: we talked about the every button needs a type again and agreed to revisit it.
+- 2026-07-10: Meeting note 90: we talked about the use typescript strict mode in every package again and agreed to revisit it.
+- 2026-08-11: Meeting note 91: we talked about the name react components in pascalcase again and agreed to revisit it.
+- 2026-09-12: Meeting note 92: we talked about the name hooks with a use prefix again and agreed to revisit it.
+- 2026-10-13: Meeting note 93: we talked about the keep components under 200 lines again and agreed to revisit it.
+- 2026-11-14: Meeting note 94: we talked about the use named exports, not default exports again and agreed to revisit it.
+- 2026-12-15: Meeting note 95: we talked about the put tests next to the file they test again and agreed to revisit it.
+- 2026-01-16: Meeting note 96: we talked about the use vitest for unit tests again and agreed to revisit it.
+- 2026-02-17: Meeting note 97: we talked about the use playwright for browser tests again and agreed to revisit it.
+- 2026-03-18: Meeting note 98: we talked about the never commit .env files again and agreed to revisit it.
+- 2026-04-19: Meeting note 99: we talked about the run the linter before you say a task is done again and agreed to revisit it.
+- 2026-05-20: Meeting note 100: we talked about the run the type checker before you say a task is done again and agreed to revisit it.

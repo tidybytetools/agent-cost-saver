@@ -1,0 +1,9 @@
+---
+description: React component conventions. Use when editing UI components.
+globs: src/ui/**/*.tsx
+alwaysApply: false
+---
+
+- Use named exports, not default exports.
+- Keep components under 200 lines. Split into a sibling file when longer.
+- Styles go in a CSS module next to the component.
